@@ -1,0 +1,212 @@
+Jun 23 03:15:44 [Warning] [default] [default] Exception Object
+(
+    [message:protected] => SQLSTATE[HY000] [2002] Connection refused
+    [string:Exception:private] => Exception: SQLSTATE[HY000] [2002] Connection refused in /usr/share/nginx/html/lhc_web/lib/core/lhcore/lhdb.php:65
+Stack trace:
+#0 /usr/share/nginx/html/lhc_web/ezcomponents/Base/src/init.php(120): erLhcoreClassLazyDatabaseConfiguration::configureObject()
+#1 /usr/share/nginx/html/lhc_web/ezcomponents/Database/src/instance.php(96): ezcBaseInit::fetchConfig()
+#2 /usr/share/nginx/html/lhc_web/lib/core/lhcore/lhlog.php(92): ezcDbInstance::get()
+#3 /usr/share/nginx/html/lhc_web/ezcomponents/Base/src/init.php(120): erLhcoreClassLog::configureObject()
+#4 /usr/share/nginx/html/lhc_web/ezcomponents/EventLog/src/log.php(243): ezcBaseInit::fetchConfig()
+#5 /usr/share/nginx/html/lhc_web/lib/core/lhcore/lhlog.php(64): ezcLog::getInstance()
+#6 /usr/share/nginx/html/lhc_web/lib/core/lhcore/lhmodule.php(148): erLhcoreClassLog::write()
+#7 /usr/share/nginx/html/lhc_web/lib/core/lhcore/lhmodule.php(547): erLhcoreClassModule::runModule()
+#8 /usr/share/nginx/html/lhc_web/index.php(44): erLhcoreClassModule::moduleInit()
+#9 {main}
+    [code:protected] => 0
+    [file:protected] => /usr/share/nginx/html/lhc_web/lib/core/lhcore/lhdb.php
+    [line:protected] => 65
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /usr/share/nginx/html/lhc_web/ezcomponents/Base/src/init.php
+                    [line] => 120
+                    [function] => configureObject
+                    [class] => erLhcoreClassLazyDatabaseConfiguration
+                    [type] => ::
+                )
+
+            [1] => Array
+                (
+                    [file] => /usr/share/nginx/html/lhc_web/ezcomponents/Database/src/instance.php
+                    [line] => 96
+                    [function] => fetchConfig
+                    [class] => ezcBaseInit
+                    [type] => ::
+                )
+
+            [2] => Array
+                (
+                    [file] => /usr/share/nginx/html/lhc_web/lib/core/lhcore/lhlog.php
+                    [line] => 92
+                    [function] => get
+                    [class] => ezcDbInstance
+                    [type] => ::
+                )
+
+            [3] => Array
+                (
+                    [file] => /usr/share/nginx/html/lhc_web/ezcomponents/Base/src/init.php
+                    [line] => 120
+                    [function] => configureObject
+                    [class] => erLhcoreClassLog
+                    [type] => ::
+                )
+
+            [4] => Array
+                (
+                    [file] => /usr/share/nginx/html/lhc_web/ezcomponents/EventLog/src/log.php
+                    [line] => 243
+                    [function] => fetchConfig
+                    [class] => ezcBaseInit
+                    [type] => ::
+                )
+
+            [5] => Array
+                (
+                    [file] => /usr/share/nginx/html/lhc_web/lib/core/lhcore/lhlog.php
+                    [line] => 64
+                    [function] => getInstance
+                    [class] => ezcLog
+                    [type] => ::
+                )
+
+            [6] => Array
+                (
+                    [file] => /usr/share/nginx/html/lhc_web/lib/core/lhcore/lhmodule.php
+                    [line] => 148
+                    [function] => write
+                    [class] => erLhcoreClassLog
+                    [type] => ::
+                )
+
+            [7] => Array
+                (
+                    [file] => /usr/share/nginx/html/lhc_web/lib/core/lhcore/lhmodule.php
+                    [line] => 547
+                    [function] => runModule
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                )
+
+            [8] => Array
+                (
+                    [file] => /usr/share/nginx/html/lhc_web/index.php
+                    [line] => 44
+                    [function] => moduleInit
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                )
+
+        )
+
+    [previous:Exception:private] => 
+)
+
+Jun 23 03:16:05 [Warning] [default] [default] Exception Object
+(
+    [message:protected] => SQLSTATE[HY000] [2002] Connection refused
+    [string:Exception:private] => Exception: SQLSTATE[HY000] [2002] Connection refused in /usr/share/nginx/html/lhc_web/lib/core/lhcore/lhdb.php:65
+Stack trace:
+#0 /usr/share/nginx/html/lhc_web/ezcomponents/Base/src/init.php(120): erLhcoreClassLazyDatabaseConfiguration::configureObject()
+#1 /usr/share/nginx/html/lhc_web/ezcomponents/Database/src/instance.php(96): ezcBaseInit::fetchConfig()
+#2 /usr/share/nginx/html/lhc_web/lib/core/lhcore/lhlog.php(92): ezcDbInstance::get()
+#3 /usr/share/nginx/html/lhc_web/ezcomponents/Base/src/init.php(120): erLhcoreClassLog::configureObject()
+#4 /usr/share/nginx/html/lhc_web/ezcomponents/EventLog/src/log.php(243): ezcBaseInit::fetchConfig()
+#5 /usr/share/nginx/html/lhc_web/lib/core/lhcore/lhlog.php(64): ezcLog::getInstance()
+#6 /usr/share/nginx/html/lhc_web/lib/core/lhcore/lhmodule.php(148): erLhcoreClassLog::write()
+#7 /usr/share/nginx/html/lhc_web/lib/core/lhcore/lhmodule.php(547): erLhcoreClassModule::runModule()
+#8 /usr/share/nginx/html/lhc_web/index.php(44): erLhcoreClassModule::moduleInit()
+#9 {main}
+    [code:protected] => 0
+    [file:protected] => /usr/share/nginx/html/lhc_web/lib/core/lhcore/lhdb.php
+    [line:protected] => 65
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /usr/share/nginx/html/lhc_web/ezcomponents/Base/src/init.php
+                    [line] => 120
+                    [function] => configureObject
+                    [class] => erLhcoreClassLazyDatabaseConfiguration
+                    [type] => ::
+                )
+
+            [1] => Array
+                (
+                    [file] => /usr/share/nginx/html/lhc_web/ezcomponents/Database/src/instance.php
+                    [line] => 96
+                    [function] => fetchConfig
+                    [class] => ezcBaseInit
+                    [type] => ::
+                )
+
+            [2] => Array
+                (
+                    [file] => /usr/share/nginx/html/lhc_web/lib/core/lhcore/lhlog.php
+                    [line] => 92
+                    [function] => get
+                    [class] => ezcDbInstance
+                    [type] => ::
+                )
+
+            [3] => Array
+                (
+                    [file] => /usr/share/nginx/html/lhc_web/ezcomponents/Base/src/init.php
+                    [line] => 120
+                    [function] => configureObject
+                    [class] => erLhcoreClassLog
+                    [type] => ::
+                )
+
+            [4] => Array
+                (
+                    [file] => /usr/share/nginx/html/lhc_web/ezcomponents/EventLog/src/log.php
+                    [line] => 243
+                    [function] => fetchConfig
+                    [class] => ezcBaseInit
+                    [type] => ::
+                )
+
+            [5] => Array
+                (
+                    [file] => /usr/share/nginx/html/lhc_web/lib/core/lhcore/lhlog.php
+                    [line] => 64
+                    [function] => getInstance
+                    [class] => ezcLog
+                    [type] => ::
+                )
+
+            [6] => Array
+                (
+                    [file] => /usr/share/nginx/html/lhc_web/lib/core/lhcore/lhmodule.php
+                    [line] => 148
+                    [function] => write
+                    [class] => erLhcoreClassLog
+                    [type] => ::
+                )
+
+            [7] => Array
+                (
+                    [file] => /usr/share/nginx/html/lhc_web/lib/core/lhcore/lhmodule.php
+                    [line] => 547
+                    [function] => runModule
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                )
+
+            [8] => Array
+                (
+                    [file] => /usr/share/nginx/html/lhc_web/index.php
+                    [line] => 44
+                    [function] => moduleInit
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                )
+
+        )
+
+    [previous:Exception:private] => 
+)
+

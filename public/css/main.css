@@ -1,0 +1,174 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background-color: black;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+}
+/* #video {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+} */
+#video {
+    width: 100%;	
+    height: 100vh;
+    object-fit: fill;
+    position: fixed;
+  }
+@media only screen and (max-width: 480px) {
+	#video {
+		height: 30vh;
+		width: 100%;
+		object-fit: fill;
+		position: fixed;
+	}
+	div#lhc_status_container_page {
+        top: 30vh;
+        background-color: rgb(234,234,234);
+        z-index: -1;
+    }
+    
+}
+.navbar{
+    position: fixed;
+    top: 0px;
+}
+
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    margin-right: 50px;
+    cursor: pointer;
+}
+@media (min-width: 1200px) {
+    .container{
+        max-width: 95%;
+    }
+}
+
+.navbar-toggle.collapsed {
+    background-color: #000 !important;
+}
+#loginModal{
+    color: black;
+}
+#registerModal{
+    color: black;
+}
+.modal-content{
+    background-color: rgba(255,255,255,0.8);
+    padding: 20px;
+    padding-bottom: 5px;
+}
+.navbar-dark .navbar-toggler{
+    border: none;
+    outline: none;
+}
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("https://livei.com/hamburger-white.png");
+}
+.bg-translucent{
+    background-color: rgba(33,33,33,0.8);
+}
+.bg-translucent-light{
+    background-color: rgba(255,255,255,0);
+}
+.modal-header .close{
+    color: black;
+}
+.navbar{
+    padding-left: 0px;
+    width: 20%;
+}
+@media only screen and (max-width: 480px) {
+	.navbar{
+        padding-left: 0px;
+        width: 80%;
+    }
+}
+.navbar-collapse{
+    padding-left: 12px;
+    padding-top: 8px;
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 5px;
+    padding-right: 12px;
+    margin-left: 10px;
+}
+.loginbutton{
+    margin-right: 10px;
+}
+.crawler {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    bottom: 0px;
+    width: 100vw;
+    right: 0px;
+    height: var(--crawler-height);
+    background-color: rgba(0,0,0,0.3);
+    color: white;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    
+}
+#logo {
+    position: relative;
+    width: 25px;
+    opacity: 0.7;
+    bottom: 1px;
+}
+.bg-translucent{
+    background-color: rgba(0,0,0,0.3);
+}
+.dropdown-item{
+    font-size: 13px;
+}
+.dropdown-menu{
+    background-color: rgba(255,255,255,0.8);
+    margin-top: 7px;
+}
+.dropdown-menu a{
+    color: black;
+}
+#profile{
+    display: flex;
+    align-items: center;
+    margin-right: 0;
+}
+#profileIcon{
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+}
+#navbar-brand{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    align-items: center;
+}
+#navbar-brand img{
+    margin-right: 5px;
+}
+.navbar-dark .navbar-brand {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-weight: 600;
+}
+
+#section2{
+    position: relative;
+    height: 200px;
+    width: 100%;
+    background-color: white;
+}
+.input-group-text{
+    border-color: grey;
+    background-color: #e4e4e5;
+}
+.form-group{
+    margin-bottom: 10px;
+}
